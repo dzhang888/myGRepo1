@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Change_Validation_Rule</fullName>
+    <active>true</active>
+    <description>Only the owner of the record can make change to the field data.</description>
+    <errorConditionFormula>AND(
+    ISCHANGED( Twitter_Profile__c ),
+     Owner.Id   &lt;&gt; $User.Id 
+)</errorConditionFormula>
+    <errorDisplayField>Twitter_Profile__c</errorDisplayField>
+    <errorMessage>Only record owner can make changes to this field.</errorMessage>
+</ValidationRule>

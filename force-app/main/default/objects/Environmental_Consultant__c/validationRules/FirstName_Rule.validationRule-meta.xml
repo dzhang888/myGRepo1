@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FirstName_Rule</fullName>
+    <active>true</active>
+    <description>The first name rule specifies that the first name can not be blank.</description>
+    <errorConditionFormula>ISBLANK(First_Name__c )</errorConditionFormula>
+    <errorDisplayField>First_Name__c</errorDisplayField>
+    <errorMessage>First Name is required!</errorMessage>
+</ValidationRule>

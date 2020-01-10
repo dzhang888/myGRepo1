@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General</fullName>
+    <active>true</active>
+    <description>Environmental consultant general</description>
+    <label>General</label>
+    <picklistValues>
+        <picklist>Job_Title__c</picklist>
+        <values>
+            <fullName>Drafting Technician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental Scientist</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Field Technician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hydrogeologist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regions__c</picklist>
+        <values>
+            <fullName>Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

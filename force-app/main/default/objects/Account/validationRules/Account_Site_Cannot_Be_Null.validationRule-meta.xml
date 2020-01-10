@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Site_Cannot_Be_Null</fullName>
+    <active>false</active>
+    <description>Account_Site_Cannot_Be_Null</description>
+    <errorConditionFormula>ISBLANK( Site )</errorConditionFormula>
+    <errorDisplayField>Site</errorDisplayField>
+    <errorMessage>Account Site Cannot Be Blank!</errorMessage>
+</ValidationRule>
