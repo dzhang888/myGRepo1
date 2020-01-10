@@ -4,7 +4,7 @@
     <description>Contact</description>
     <externalId>false</externalId>
     <inlineHelpText>Contact phone number</inlineHelpText>
-    <label>Contact Number</label>
+    <label>My Contact Number</label>
     <required>true</required>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
